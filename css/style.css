@@ -2897,3 +2897,23 @@ table {
   input[type="submit"]:hover {
 	background-color: #45a049;
   }
+  .button-container {
+    text-align: center;
+}
+
+.centered-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Media query for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .centered-button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
