@@ -285,6 +285,7 @@ p{
 }
 .bottom25{
 	margin-bottom:25px;
+	margin-top: 10px;
 }
 .top25{
 	margin-top:25px;
@@ -1776,13 +1777,31 @@ body.pushmenu-push-toright .wrap-sticky nav.navbar.bootsnav.sticked{
 	background:url(../images/admin/rng.png) no-repeat;
 }
 .page_header{
+	background:url(../images/mbbs/enginn.png) no-repeat;
+}
+.page_header1{
+	background:url(../images/mbbs/mca.png) no-repeat;
+}
+.page_header2{
+	background:url(../images/admin/dental.png) no-repeat;
+}
+.page_header3{
+	background:url(../images/admin/dental.png) no-repeat;
+}
+.page_header4{
+	background:url(../images/admin/dental.png) no-repeat;
+}
+.page_header5{
+	background:url(../images/admin/dental.png) no-repeat;
+}
+.page_header6{
 	background:url(../images/admin/dental.png) no-repeat;
 }
 #counter{
 	background:url(../images/admin/tesr.png) no-repeat;
 }
-#courses , #parallax, .page_header, #counter{
-	background-size:cover;
+#courses , #parallax, .page_header,.page_header1,.page_header2,.page_header3,.page_header4,.page_header5, #counter{
+
 	width:100%;
 	background-attachment:fixed;
 	background-position:center center;
